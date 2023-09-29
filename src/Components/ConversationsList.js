@@ -1,7 +1,5 @@
-import React from 'react';
-
 function ConversationsList({ conversations, onSelect }) {
-  const sortedConversations = [...conversations].sort((a, b) => new Date(b.last_updated) - new Date(a.last_updated));
+  const sortedConversations = [...conversations].sort((a, b) => new Date(b.last_updated) - new Date(a.last_updated)).slice(0, 4);  // Slice to get the first 4 conversations
 
   return (
     <div className="conversations-list">

@@ -1,5 +1,3 @@
-import React from 'react';
-
 function MessagesList({ messages, onEditMessage }) {
   const sortedMessages = [...messages].sort((a, b) => new Date(a.last_updated) - new Date(b.last_updated));
 
