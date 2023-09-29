@@ -7,7 +7,7 @@ function MessagesList({ messages, onEditMessage }) {
     <div className="messages-list">
       {sortedMessages.map((message) => (
         <div key={message.id} onClick={() => onEditMessage(message)}>
-          <div>{new Date(message.last_updated).toLocaleString()}</div>
+          <div>{message.last_updated = new Date().toISOString()}</div>
           <div>{message.text}</div>
         </div>
       ))}
