@@ -4,7 +4,6 @@ A modern, easy-to-use chat application built with React. Engage in one-on-one co
 
 ## 🚀 Features
 
-- **Real-time Chat:** Engage in one-on-one conversations in real time.
 - **Message Editing:** Easily edit previously sent messages.
 - **User-Friendly Design:** Intuitive interface that's easy to use.
 - **Timestamps:** Every message comes with a date, ensuring you know when it was sent.
@@ -35,8 +34,6 @@ Execute the following command to run the test suite:
 npm test
 
 ## 🛠 Installation
-
-**Prerequisites:**  [Node.js](https://nodejs.org/) need to be installed.
 
 1. Clone the repository:
    ```sh
